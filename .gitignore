@@ -1,1 +1,10 @@
+# R specific
+*.Rproj.user/
+*.Rhistory
+*.RData
+*.Ruserdata
+
+# Ignore shiny's temporary directory
+.shiny/
+
 endemic_dolo50.txt
