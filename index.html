@@ -1,11 +1,17 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <meta http-equiv="refresh" content="0; url=https://francescorota93.github.io/Map-EndemicPlants-Dolomites/species_app.R">
-  <title>Redirecting to Shiny App</title>
+  <title>My R Shiny App</title>
+  <!-- Load Shiny CSS and JavaScript files -->
+  <link rel="stylesheet" href="shared/shiny.css">
+  <script src="shared/shiny.js"></script>
 </head>
 <body>
-  <p>If you are not redirected automatically, <a href="https://francescorota93.github.io/Map-EndemicPlants-Dolomites/species_app.R">click here</a>.</p>
+  <!-- Define the Shiny app container -->
+  <div id="shiny-app">
+    <!-- Include the Shiny app -->
+    <iframe src="./species_app.R" style="border: none; width: 100%; height: 600px;"></iframe>
+  </div>
 </body>
 </html>
 
